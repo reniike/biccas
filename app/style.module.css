@@ -1,0 +1,482 @@
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+.firstContainer,
+.thirdContainer,
+.fourthContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4em 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 4em;
+  margin-left: 33em;
+}
+
+.logo {
+  transform: scale(0.7);
+}
+
+.navbar ul li:first-child a {
+  color: black;
+}
+
+.navbar ul li a {
+  font-size: 1.6rem;
+  color: #a6a6a6;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.buttons1 {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  font-size: 1.6rem;
+  align-items: center;
+}
+.buttons1 a {
+  text-decoration: none;
+}
+.buttons1 > a:first-child {
+  color: #a6a6a6;
+  margin-right: 2em;
+}
+
+.signup {
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 1em;
+  background: #54bd95;
+  font-size: 1.6rem;
+}
+
+.hero {
+  display: flex;
+  gap: 3.5em;
+  max-width: 100%;
+  margin-top: 13em;
+}
+
+.hero .firstCol {
+  width: 50%;
+}
+
+.hero .firstCol h1 {
+  font-weight: 700;
+  color: #191a15;
+  font-size: 8rem;
+  margin-bottom: 0.3em;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  width: 461px;
+}
+
+.hero .firstCol img {
+  margin-bottom: 5em;
+}
+
+.hero .buttons2 {
+  display: flex;
+  margin-top: 5em;
+}
+
+.hero .firstCol a button {
+  padding: 1em 2em;
+  background-color: #54bd95;
+  color: white;
+  border: none;
+  border-radius: 4em;
+  padding: 1em 2em;
+  font-size: 1.6rem;
+  margin-right: 4em;
+}
+
+.hero .firstCol a,
+.hero .firstCol a span {
+  text-decoration: none;
+}
+
+.hero .firstCol a span {
+  font-size: 1.6rem;
+  color: #191a15;
+}
+
+.hero .firstCol a img {
+  margin: 0;
+}
+
+.hero .buttons2 .demo {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 0.9em;
+}
+
+.hero .secondCol {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .secondCol img {
+  max-width: 65%;
+  height: auto;
+}
+
+.clientele h1 {
+  color: #191a15;
+  font-weight: 700;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.clientele ul {
+  display: flex;
+  gap: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 6em;
+}
+
+.clientele ul li img {
+  margin-right: 0.6em;
+}
+
+.clientele ul li {
+  list-style: none;
+  color: #a6a6a6;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.secondContainer {
+  background-color: #f9f8fe;
+  margin-top: 13em;
+  margin-top: 13em;
+}
+
+.partnerSupport {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2.7em;
+  padding-top: 0.6em;
+}
+
+.partnerSupport .firstCol {
+  padding-top: 6em;
+  width: 55%;
+}
+
+.partnerSupport .firstCol h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #191a15;
+  margin-bottom: 0.3em;
+}
+
+.partnerSupport .firstCol p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #a6a6a6;
+}
+
+.stars {
+  display: flex;
+  margin-top: 7.3em;
+  gap: 8em;
+}
+
+.stars div img,
+.stars div p {
+  margin-bottom: 1.8em;
+}
+
+.stars div p {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.stars div p span {
+  font-weight: 400;
+}
+
+.stars div :nth-child(2) {
+  color: #191a15;
+}
+
+.partnerSupport .secondCol {
+  width: 45%;
+  padding-top: 6em;
+}
+
+.partnerSupport .section {
+  margin-bottom: 6em;
+  display: flex;
+  gap: 2.3em;
+}
+
+.partnerSupport h4 {
+  font-size: 2.8rem;
+  color: #191a15;
+  margin-bottom: 0.1em;
+}
+
+.partnerSupport p {
+  font-size: 1.8rem;
+  color: #a6a6a6;
+}
+
+.partnerSupport .icon {
+  width: 7.5em;
+  height: 7.5em;
+  padding: 1.8em;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features .featureMenu {
+  display: flex;
+  width: 100%;
+  gap: 11.3em;
+  padding-top: 13em;
+  margin-bottom: 7.4em;
+}
+
+.features .featureMenu h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  max-width: 331px;
+}
+
+.features .featureMenu p {
+  font-size: 1.8rem;
+  color: #a6a6a6;
+  max-width: 461px;
+}
+
+.features button {
+  background-color: #54bd95;
+  border-radius: 7em;
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  width: 162px;
+  height: 66px;
+}
+
+.features ul {
+  display: flex;
+}
+
+.features .featureList {
+  gap: 4.4em;
+}
+
+.features .feature {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #191a15;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+.features .featureDetails {
+  font-size: 1.8rem;
+  color: #a6a6a6;
+}
+
+.benefits {
+  margin-top: 13em;
+  max-width: 100%;
+  display: flex;
+  gap: 25.9em;
+}
+
+.benefits .firstCol,
+.benefits .secondCol {
+  width: 50%;
+}
+
+.benefits .firstCol h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #191a15;
+  margin-bottom: 0.5em;
+}
+
+.benefits .firstCol ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3em;
+  gap: 1em;
+}
+
+.benefits .firstCol ul li span {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.benefits .secondCol img {
+  max-width: 86%;
+  height: auto;
+}
+
+.fourthContainer .plans {
+  margin-top: 13em;
+}
+
+.fourthContainer .plans h1:first-child {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #191a15;
+  max-width: 492px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.plans .plan {
+  text-align: center;
+  margin: 0 auto;
+  color: #a6a6a6;
+  font-size: 1.8rem;
+  margin-top: 0.4em;
+}
+
+.plans .outerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  width: max-content;
+  border-radius: 1em;
+  margin: 4em auto;
+  background-color: #f9fafb;
+}
+
+.plans .outerDiv button:first-child {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-right: 3.8em;
+  margin-left: 3.8em;
+}
+
+.plans .outerDiv button:nth-child(2) {
+  padding-top: 1.6em;
+  padding-bottom: 1.6em;
+  width: 12em;
+  border-radius: 1em;
+  background-color: #54bd95;
+  border: none;
+  color: white;
+}
+
+.plans .outerDiv button {
+  font-size: 1.8rem;
+}
+
+.plans .cols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plans .firstCol,
+.plans .secondCol,
+.plans .thirdCol {
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.plans .firstCol,
+.plans .thirdCol {
+  background-color: rgb(254, 246, 230);
+}
+
+.plans .firstCol .innerCol,
+.plans .thirdCol .innerCol {
+  background: white;
+}
+
+.plans .firstCol ul li,
+.plans .secondCol ul li,
+.plans .thirdCol ul li {
+  list-style: none;
+}
+
+.plans .firstCol ul,
+.plans .secondCol ul,
+.plans .thirdCol ul {
+  background: white;
+}
+
+.plans .secondCol .innerCol {
+  background: white;
+}
+
+.plans .firstCol p:first-child,
+.plans .secondCol p:first-child,
+.plans .thirdCol p:first-child {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.plans .secondCol p:nth-child(2) {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2em;
+  color: white;
+}
+
+.plans .firstCol p:nth-child(2),
+.plans .thirdCol p:nth-child(2) {
+  font-size: 1.8rem;
+  color: #a6a6a6;
+  text-align: center;
+  padding: 2em;
+}
+
+.plans .secondCol {
+  background-color: #54bd95;
+}
+
+.plans .secondCol h1 {
+  color: white;
+}
+
+.plans .secondCol p {
+  color: white;
+}
