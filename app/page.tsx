@@ -351,68 +351,72 @@ export default function Home() {
         </section>
       </section>
 
-      {/* <section>
-        <div className="first-col">
-          <h1>People are Saying About DoWhith</h1>
-          <p>
-            Everything you need to accept to payment and grow your money of
-            manage anywhere on planet
-          </p>
-          <img src="/icons/qoute.svg" alt="quote" />
-          <p>
-            I am very helped by this E-wallet application , my days are very
-            easy to use this application and its very helpful in my life , even
-            I can pay a short time 😍
-          </p>
-          <p>_ Aria Zinanrio</p>
-          <ul>
-            <li>
-              <img src="/imgs/person1.png" alt="person 1" />
-            </li>
-            <li>
-              <img src="/imgs/person2.png" alt="person 2" />
-            </li>
-            <li>
-              <img src="/imgs/person3.png" alt="person 3" />
-            </li>
-            <li>
-              <img src="/imgs/person4.png" alt="person 4" />
-            </li>
-            <li>
-              <img src="/imgs/arrow-right.png" alt="right" />
-            </li>
-          </ul>
-        </div>
+      <section className={styles.fifthContainer}>
+        <section className={styles.contact}>
+          <div className={styles.firstCol}>
+            <h1>People are Saying About DoWhith</h1>
+            <p>
+              Everything you need to accept to payment and grow your money of
+              manage anywhere on planet
+            </p>
+            <img src="/icons/quote.svg" alt="quote" className={styles.quote} />
+            <p>
+              I am very helped by this E-wallet application , my days are very
+              easy to use this application and its very helpful in my life ,
+              even I can pay a short time 😍
+            </p>
+            <p>_ Aria Zinanrio</p>
+            <ul>
+              <li>
+                <img src="/imgs/person1.png" alt="person 1" />
+              </li>
+              <li>
+                <img src="/imgs/person2.png" alt="person 2" />
+              </li>
+              <li>
+                <img src="/imgs/person3.png" alt="person 3" />
+              </li>
+              <li>
+                <img src="/imgs/person4.png" alt="person 4" />
+              </li>
+              <li>
+                <img src="/imgs/arrow-right.png" alt="right" />
+              </li>
+            </ul>
+          </div>
 
-        <div className="second-col">
-          <img src="/imgs/coins.png" alt="coin" />
-          <p>Get Started</p>
-          <form action="your-server-endpoint" method="POST">
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-            <br />
-            <label htmlFor="text">Message</label>
-            <input
-              type="text"
-              id="text"
-              name="text"
-              placeholder="What are you say?"
-              required
-            />
-            <br />
-            <button type="submit">Request Demo</button>
-          </form>
-          <p>
-            or <span>Start Free Trial </span>
-          </p>
-        </div>
-      </section> */}
+          <div className={styles.secondCol}>
+            <div className={styles.coins}>
+              <img src="/imgs/coins.png" alt="coin" />
+            </div>
+            <p>Get Started</p>
+            <form action="your-server-endpoint" method="POST">
+              <label htmlFor="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <br />
+              <label htmlFor="text">Message</label>
+              <input
+                type="text"
+                id="text"
+                name="text"
+                placeholder="What are you say?"
+                required
+              />
+              <br />
+              <button type="submit">Request Demo</button>
+            </form>
+            <p>
+              or <span>Start Free Trial </span>
+            </p>
+          </div>
+        </section>
+      </section>
 
       {/* <footer>
         <div className="first-col">

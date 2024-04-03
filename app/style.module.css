@@ -177,7 +177,6 @@
 .secondContainer {
   background-color: #f9f8fe;
   margin-top: 13em;
-  margin-top: 13em;
 }
 
 .partnerSupport {
@@ -454,7 +453,6 @@
 .plans .secondCol ul,
 .plans .thirdCol ul {
   background: white;
-  /* padding: 0; */
 }
 
 .plans .firstCol p:first-child,
@@ -534,4 +532,80 @@
   padding: 1em 5em;
   border-radius: 1em;
   font-size: 1.8rem;
+}
+
+.fifthContainer {
+  background-color: #161c28;
+  margin-top: 13em;
+}
+
+.fifthContainer .contact {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10em;
+  display: flex;
+  padding-top: 13em;
+}
+
+.fifthContainer .firstCol {
+  width: 40%;
+}
+
+.fifthContainer .firstCol h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+.fifthContainer .firstCol p {
+  margin-top: 2em;
+  color: #a6a6a6;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.fifthContainer .firstCol .quote {
+  margin-top: 5em;
+}
+
+.fifthContainer .firstCol ul {
+  display: flex;
+  gap: 2em;
+  margin-top: 4em;
+}
+
+.fifthContainer .firstCol ul li img {
+  width: 50px;
+  height: auto;
+}
+
+.fifthContainer .secondCol {
+  width: 60%;
+  margin-top: 1.3em;
+  background-color: #222938;
+  border-radius: 2em;
+}
+
+.fifthContainer .secondCol img {
+  width: 70px;
+}
+
+.fifthContainer .secondCol .coins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+.fifthContainer .secondCol form label {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.fifthContainer .secondCol p:first-of-type {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.1em;
 }
