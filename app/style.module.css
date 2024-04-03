@@ -391,8 +391,7 @@
   background-color: transparent;
   border: none;
   padding: 0;
-  margin-right: 3.8em;
-  margin-left: 3.8em;
+  margin: 0 3.8em 0 3.8em;
 }
 
 .plans .outerDiv button:nth-child(2) {
@@ -411,13 +410,14 @@
 
 .plans .cols {
   display: flex;
+  gap: 2.9em;
   justify-content: space-between;
 }
 
 .plans .firstCol,
 .plans .secondCol,
 .plans .thirdCol {
-  padding: 2em;
+  padding: 3em;
   border-radius: 1em;
 }
 
@@ -429,22 +429,31 @@
 .plans .firstCol .innerCol,
 .plans .thirdCol .innerCol {
   background: white;
+  padding: 2.6em 3.1em 2.5em 3.7em;
+  border-radius: 1em;
+}
+
+.plans .secondCol .innerCol {
+  background: white;
+  padding: 2.6em 3.1em 2.5em 3.7em;
+  border-radius: 1em;
 }
 
 .plans .firstCol ul li,
 .plans .secondCol ul li,
 .plans .thirdCol ul li {
   list-style: none;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2em;
 }
 
 .plans .firstCol ul,
 .plans .secondCol ul,
 .plans .thirdCol ul {
   background: white;
-}
-
-.plans .secondCol .innerCol {
-  background: white;
+  /* padding: 0; */
 }
 
 .plans .firstCol p:first-child,
@@ -452,12 +461,13 @@
 .plans .thirdCol p:first-child {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 0.1em;
+  margin-top: 0.4em;
 }
 
 .plans .secondCol p:nth-child(2) {
   font-size: 1.8rem;
   text-align: center;
-  padding: 2em;
   color: white;
 }
 
@@ -466,17 +476,61 @@
   font-size: 1.8rem;
   color: #a6a6a6;
   text-align: center;
-  padding: 2em;
 }
 
 .plans .secondCol {
   background-color: #54bd95;
 }
 
+.plans .firstCol h1,
+.plans .thirdCol h1 {
+  font-size: 5rem;
+  font-weight: 60em;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
 .plans .secondCol h1 {
   color: white;
+  font-size: 5rem;
+  font-weight: 60em;
+  text-align: center;
 }
 
 .plans .secondCol p {
   color: white;
+}
+
+.plans .secondCol > button:first-of-type {
+  background-color: #85dab9;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 1.4rem;
+  display: block;
+  margin: 1.5em auto;
+}
+
+.plans .secondCol button {
+  border: none;
+  background-color: #54bd95;
+  color: white;
+  display: block;
+  margin: 1.5em auto;
+  padding: 1em 6em;
+  border-radius: 1em;
+  font-size: 1.8rem;
+}
+
+.plans .firstCol .innerCol button,
+.plans .thirdCol .innerCol button {
+  border: none;
+  background-color: rgb(254, 246, 230);
+  color: #54bd95;
+  display: block;
+  margin: 1.5em auto;
+  padding: 1em 5em;
+  border-radius: 1em;
+  font-size: 1.8rem;
 }

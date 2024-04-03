@@ -249,6 +249,7 @@ export default function Home() {
                 Have a go and test your <br /> superpowers
               </p>
               <h1>0</h1>
+
               <div className={styles.innerCol}>
                 <ul>
                   <li>
@@ -282,7 +283,8 @@ export default function Home() {
                 Experiment the power <br /> of infinite possibilities
               </p>
               <h1>8</h1>
-              <button>Save $50 a year</button>
+              <button className={styles.save}>Save $50 a year</button>
+
               <div className={styles.innerCol}>
                 <ul>
                   <li>
@@ -317,6 +319,7 @@ export default function Home() {
                 join the Design Leaque
               </p>
               <h1>16</h1>
+
               <div className={styles.innerCol}>
                 <ul>
                   <li>
