@@ -585,6 +585,7 @@
   margin-top: 1.3em;
   background-color: #222938;
   border-radius: 2em;
+  padding: 8.6em;
 }
 
 .fifthContainer .secondCol img {
@@ -597,6 +598,7 @@
   justify-content: center;
   margin-top: 4em;
 }
+
 .fifthContainer .secondCol form label {
   color: white;
   font-size: 1.8rem;
@@ -608,4 +610,69 @@
   font-weight: 500;
   text-align: center;
   margin-top: 0.1em;
+}
+
+.fifthContainer .secondCol .formBody {
+  padding: 0 8.6em 0 8.6em;
+  margin-top: 1em;
+}
+
+.fifthContainer .secondCol label {
+  display: block;
+}
+
+.fifthContainer .formBody textarea {
+  margin: 2em 0;
+  padding: 1em;
+  border-radius: 1em;
+  border: 2px solid white;
+  width: 100%;
+  min-height: 7em;
+  resize: none;
+}
+
+.fifthContainer .secondCol input:first-of-type {
+  margin: 2em 0;
+  padding: 1.7em 30.7em 1.7em 2em;
+  border-radius: 1em;
+  border: white;
+}
+
+.fifthContainer .secondCol .formBody .emailInput {
+  width: 100%;
+  padding: 1em;
+}
+
+.fifthContainer .secondCol .formBody .requestDemo {
+  text-align: center;
+  border-radius: 1em;
+}
+
+.fifthContainer .secondCol .formBody button {
+  color: white;
+  background-color: #54bd95;
+  font-size: 1.6rem;
+  border: none;
+  padding: 1em;
+  width: 100%;
+  border-radius: 1em;
+}
+
+.fifthContainer .secondCol .formBody button:hover {
+  background-color: #3e9f7a;
+}
+
+.fifthContainer .secondCol p {
+  color: grey;
+  text-align: right;
+  margin-top: 0.2em;
+  font-size: 1.4rem;
+}
+
+.fifthContainer .secondCol p span {
+  font-size: 1.4rem;
+  color: white;
+  text-align: right;
+  margin-right: 4em;
+  margin-top: 0.2em;
 }

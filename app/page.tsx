@@ -390,27 +390,31 @@ export default function Home() {
               <img src="/imgs/coins.png" alt="coin" />
             </div>
             <p>Get Started</p>
-            <form action="your-server-endpoint" method="POST">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter your email"
-                required
-              />
-              <br />
-              <label htmlFor="text">Message</label>
-              <input
-                type="text"
-                id="text"
-                name="text"
-                placeholder="What are you say?"
-                required
-              />
-              <br />
-              <button type="submit">Request Demo</button>
-            </form>
+            <div className={styles.formBody}>
+              <form action="your-server-endpoint" method="POST">
+                <label htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                  className={styles.emailInput}
+                />
+                <br />
+                <label htmlFor="text">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="What are you saying?"
+                  required
+                ></textarea>
+                <br />
+                <div className={styles.requestDemo}>
+                  <button type="submit">Request Demo</button>
+                </div>
+              </form>
+            </div>
             <p>
               or <span>Start Free Trial </span>
             </p>
@@ -418,7 +422,7 @@ export default function Home() {
         </section>
       </section>
 
-      {/* <footer>
+      <footer>
         <div className="first-col">
           <img src="/icons/biccas.svg" alt="biccas" />
           <p>Get started now try our product</p>
@@ -462,8 +466,7 @@ export default function Home() {
           <p> © 2022 Biccas Inc. Copyright and rights reserved</p>
           <p>Terms and Condtions . Privacy Policy</p>
         </div>
-      </footer> */}
-      {/* </div> */}
+      </footer>
     </body>
   );
 }
