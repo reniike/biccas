@@ -421,52 +421,6 @@ export default function Home() {
           </div>
         </section>
       </section>
-
-      <footer>
-        <div className="first-col">
-          <img src="/icons/biccas.svg" alt="biccas" />
-          <p>Get started now try our product</p>
-          <div>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter your email here"
-            />
-            <img src="/icons/enter.svg" alt="enter" />
-          </div>
-        </div>
-        <div className="second-col">
-          <ul>
-            <p>Support</p>
-            <li>Help centre</li>
-            <li>Account information</li>
-            <li>About</li>
-            <li>Contact us</li>
-          </ul>
-
-          <ul>
-            <p> Help and Solution</p>
-            <li>Talk to support</li>
-            <li>Support docs</li>
-            <li>System status</li>
-            <li>Covid responde</li>
-          </ul>
-
-          <ul>
-            <p>Product</p>
-            <li> Update</li>
-            <li>Security</li>
-            <li> Beta test</li>
-            <li>Pricing product</li>
-          </ul>
-        </div>
-
-        <div>
-          <p> © 2022 Biccas Inc. Copyright and rights reserved</p>
-          <p>Terms and Condtions . Privacy Policy</p>
-        </div>
-      </footer>
     </body>
   );
 }

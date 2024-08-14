@@ -1,8 +1,3 @@
-/* .container {
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
 .firstContainer,
 .thirdContainer,
 .fourthContainer {
@@ -675,4 +670,160 @@
   text-align: right;
   margin-right: 4em;
   margin-top: 0.2em;
+}
+
+.lastContainer {
+  background-color: #161c28;
+}
+
+.lastContainer footer {
+  background-color: #161c28;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10em;
+  display: flex;
+  color: white;
+  padding-top: 13em;
+}
+
+.lastContainer .firstCol {
+  width: 40%;
+}
+
+.lastContainer .secondCol {
+  width: 60px;
+  display: flex;
+}
+
+.lastContainer .secondCol ul li {
+  list-style: none;
+}
+
+/*  */
+/* Add these media queries at the end of your CSS file */
+
+@media (max-width: 1200px) {
+  .firstContainer,
+  .thirdContainer,
+  .fourthContainer,
+  .fifthContainer .contact,
+  .lastContainer footer {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .navbar ul {
+    margin-left: 0;
+    gap: 2em;
+  }
+
+  .buttons1 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero .firstCol,
+  .hero .secondCol {
+    width: 100%;
+  }
+
+  .hero p {
+    width: 100%;
+  }
+
+  .hero .buttons2 {
+    justify-content: center;
+  }
+
+  .clientele ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .partnerSupport,
+  .benefits,
+  .fifthContainer .contact {
+    flex-direction: column;
+    gap: 4em;
+  }
+
+  .partnerSupport .firstCol,
+  .partnerSupport .secondCol,
+  .benefits .firstCol,
+  .benefits .secondCol,
+  .fifthContainer .firstCol,
+  .fifthContainer .secondCol {
+    width: 100%;
+  }
+
+  .plans .cols {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lastContainer footer {
+    flex-direction: column;
+    gap: 4em;
+  }
+
+  .lastContainer .firstCol,
+  .lastContainer .secondCol {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features .featureMenu {
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+  }
+
+  .features .featureList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fifthContainer .secondCol {
+    padding: 4em 2em;
+  }
+
+  .fifthContainer .secondCol .formBody {
+    padding: 0;
+  }
+
+  .lastContainer .secondCol {
+    flex-direction: column;
+    gap: 2em;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .hero .firstCol h1 {
+    font-size: 6rem;
+  }
+
+  .fifthContainer .secondCol input:first-of-type {
+    padding: 1.7em 1em;
+  }
 }
